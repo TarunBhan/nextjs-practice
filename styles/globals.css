@@ -14,3 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
+.n1{
+  padding:10px;
+  align-items: center;
+}
+nav a{
+  padding: 5px;
+  align-items: center;
+}
+ul{
+  align:center;
+}
+.ssr-styles{
+  border:1px solid rgb(13, 206, 219);
+ text-align : center;
+padding:2px;
+
+width:800px;
+margin:auto;margin-top:15px;
+}

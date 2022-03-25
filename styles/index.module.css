@@ -1,10 +1,31 @@
-.imgbg{
-    background-image:url("https://images.news18.com/ibnlive/uploads/2022/02/lord-shiva.jpg?impolicy=website&width=0&height=0");
-    text-align: center;
-    height: 1500px;
-
+.imgbg {
+  /*  background-image:url("https://images.news18.com/ibnlive/uploads/2022/02/lord-shiva.jpg?impolicy=website&width=0&height=0"); */
+  text-align: center;
+  /* height: 1500px; */
 }
-.main_heading{
-    self-align:center;
-    color:blue;
+.main_heading {
+  text-align: center;
+  background-color: rgb(230, 221, 221);
+  width: 650px;
+}
+.navbar {
+  background-color: rgb(238, 238, 238);
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 30px;
+}
+.navbar ul a {
+  transition: all 0.3s ease 0s;
+}
+.navbar ul a:hover {
+  color: rgb(169, 218, 200);
+}
+.n1 {
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.para {
+  color: white;
 }

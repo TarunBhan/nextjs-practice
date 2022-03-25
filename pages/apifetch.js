@@ -1,6 +1,5 @@
 import Link from 'next/link'
-
-
+import React from 'react'
 export const getStaticProps = async() =>{
     const res=await fetch("https://jsonplaceholder.typicode.com/posts");
     const data =await res.json();
@@ -10,8 +9,6 @@ export const getStaticProps = async() =>{
         },
     };
 };
-import React from 'react'
-
 const blog = ({data}) => {
   return (
   <>

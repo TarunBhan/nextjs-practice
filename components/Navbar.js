@@ -1,12 +1,12 @@
 import Link from 'next/link'
-
+import styles from "../styles/index.module.css";
 function Navbar() {
   return (
-  <>
-  <center>¸
-   <nav className='n1'>
+  <div className={styles.navbar}>
+  
+   <nav className='styles.n1'>
       <ul className="menu-bar">
-        <Link  href="./pages/">
+        <Link  href="./">
           <a >Home</a>
         </Link >
         <Link href="/about">
@@ -20,8 +20,8 @@ function Navbar() {
         </Link >
          </ul>
     </nav>
-    </center>
-  </>
+    
+  </div>
   )
 }
 

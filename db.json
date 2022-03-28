@@ -1,0 +1,39 @@
+{
+  "product":[
+    {
+
+      "id": 1,
+      "title": "Adidas",
+      "description": " Sports Shoes",
+      "category" : "sports",    
+      "img1":"https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/89c465a50c884a91959ea89700a90d7a_9366/nizza-shoes.jpg"
+
+  },
+  {
+      "id": 2,
+      "title": "Converse",
+      "description": " Tough Shoes",
+      "category" : "potics",
+      "img1":"https://5.imimg.com/data5/SELLER/Default/2021/9/XY/SW/PJ/12982737/whatsapp-image-2021-09-03-at-4-32-23-pm-500x500.jpeg"
+  },
+  {
+      "id": 3,
+      "title": "Nike",
+      "description": "shoes",
+      "category" : "games",
+      "img1":"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/21385d10-9b67-4719-907b-97e761874d3e/air-force-1-shadow-shoes-mN8Glx.png"
+  }
+  ],
+  "sports" : [
+      {
+          "id": 1,
+          "title": "sports is imp 1",
+          "description": "Description 1",
+          "category" : "sports 1"
+      },
+      { "id": 1,
+          "title": "sports is imp 2",
+          "description": "Description 2",
+          "category" : "sports 2"}
+  ]
+}

@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/404.js", "pages/blog.js", "pages/practice folder/home.tsx"  ],
+, "pages/404.js", "pages/blog.js", "pages/practicefolder/home.tsx"  ],
   "exclude": [
     "node_modules"
   ]

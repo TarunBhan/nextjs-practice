@@ -17,15 +17,17 @@ export const  getStaticProps = async()=>
 const index =({data}) =>{
   return(
   <>{
-  data.map((currElem)=>{
+  data.slice(0,5).map((currElem)=>{
   return (
     <>
-  <div className={styles.imgbg}>
+  <div className={styles.imgbg} bg-color="red">
   {/* <h1 className="style.main_heading"> Shiva is Everything</h1> */}
 
    <h1>{currElem.id}</h1>
    <p>{currElem.title}</p>
  </div>
+ 
+
  </>
   );
 })

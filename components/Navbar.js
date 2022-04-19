@@ -6,7 +6,7 @@ function Navbar() {
   
    <nav className='styles.n1'>
       <ul className="menu-bar">
-        <Link  href="./">
+        <Link  href="/">
           <a >Home</a>
         </Link >
         <Link href="/about">
@@ -17,6 +17,9 @@ function Navbar() {
         </Link >
         <Link href="/product">
           <a >product</a>
+        </Link >
+        <Link href="/blogDetails">
+          <a >Add Blog</a>
         </Link >
          </ul>
     </nav>

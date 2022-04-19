@@ -1,4 +1,3 @@
-import { useRouter } from "next/router"
 
 
 // const pagesNo = () => {
@@ -29,14 +28,12 @@ import { useRouter } from "next/router"
       },
     };
   });
-
-
 return{
 paths,
 fallback: false,
 };
 };
-   export const getStaticProps = async(context)=>{
+  export const getStaticProps = async(context)=>{
   const id = context.params.pagesNo;
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
   const data = await res.json();
@@ -47,16 +44,14 @@ fallback: false,
   };
 };
 
-
 const myData = ({data}) => {
   const {id,title,body}=data;
   return (
     <div  className="ssr-styles">
-  <h1> {id}
-  </h1>
+  <h1> {id}</h1>
   <h2> {title}</h2>
   <p>{body}</p>
-    </div>
+  </div>
   )
 }
 

@@ -632,10 +632,18 @@
   dependencies:
     "@cld-apis/utils" "^0.2.0"
 
-"cloudinary-core@^2.10.2":
+"cloudinary-core@^2.10.2", "cloudinary-core@^2.11.3":
   "integrity" "sha512-Ll4eDzcrIVn4zCttMh3Mdi+KNz07p5EEjBT2PQSRx8Eok1lKPt3uBBenOk/w88RKK3B8SFIWcEe/mN4BHQ0p8A=="
   "resolved" "https://registry.npmjs.org/cloudinary-core/-/cloudinary-core-2.12.3.tgz"
   "version" "2.12.3"
+
+"cloudinary-react@^1.7.2":
+  "integrity" "sha512-crwKQRGLP5SkYblwR8Li5O+ZiwKLL/xAz9BjIkg8/hNDF5/+vT3/K+JCWne86lA2AWAuk4OTbv4YVjHx4xA8eA=="
+  "resolved" "https://registry.npmjs.org/cloudinary-react/-/cloudinary-react-1.7.2.tgz"
+  "version" "1.7.2"
+  dependencies:
+    "cloudinary-core" "^2.11.3"
+    "prop-types" "^15.6.2"
 
 "cloudinary@^1.30.0":
   "integrity" "sha512-4f1YmUS+QxhTdpPd+kYpjgTYDxJAxpyZ8TXOnCa2NE2Iew2JwKQwvo4o5YkCM9HbcH+NzymlMocxSDafhLaBmQ=="
@@ -2126,7 +2134,7 @@
   "resolved" "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz"
   "version" "1.1.2"
 
-"prop-types@^15.8.1":
+"prop-types@^15.6.2", "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -2213,7 +2221,7 @@
   dependencies:
     "history" "^5.2.0"
 
-"react@^16.8.0 || ^17.0.0", "react@^17.0.2 || ^18.0.0-0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@>=16.8", "react@17.0.2":
+"react@^16.3.3 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^17.0.2 || ^18.0.0-0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@>=16.8", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"

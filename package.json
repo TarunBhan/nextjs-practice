@@ -12,6 +12,7 @@
     "axios": "^0.26.1",
     "cloudinary": "^1.30.0",
     "cloudinary-build-url": "^0.2.4",
+    "cloudinary-react": "^1.7.2",
     "jsonfile": "^6.1.0",
     "jsonwebtoken": "^8.5.1",
     "next": "12.1.0",

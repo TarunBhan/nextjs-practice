@@ -44,10 +44,10 @@ const blogDetails = () => {
   const [title,setTitle]= useState('');
   const [body,setBody]=useState('');
   const [isloading,setIsloading]=useState(false);
-  const [author,setAuthor]=useState('mario');
-const handleSubmit=(e)=>{
-e.preventDefault();
-const blog={title,body,author};
+  const [author,setAuthor]=useState('tarun');
+  const handleSubmit=(e)=>{
+  e.preventDefault();
+  const blog={title,body,author};
 
 setIsloading(true);
 fetch('http://localhost:8000/blogs',{
@@ -67,14 +67,14 @@ setIsloading(false);
 
   }
 return (
-<div className='form-1' >
-
+<div className='form-1 justify-center  border border-red-100 px-5 py-5 w-60 mt-7 place-content-center'>
+<div className='justify-center text-center'>
   <Link href="/home">
-   <b>all blogs </b>
+   <b className='cursor-pointer font-bold uppercase'>all blogs </b>
   </Link>
  
-        <h1 >ADD a new Blog</h1><form className='form-2'>
-        <label> blog Title</label>
+        <h1  className='text-white self-auto text-center uppercase'>ADD a new Blog</h1><form className='form-2'>
+        <label className='uppercase'> blog Title</label>
         <input 
         type="text"
         value={title}
@@ -95,13 +95,14 @@ return (
            <option>mario</option>
            <option >tarun</option>
        </select>
-{ !isloading && <button onClick={handleSubmit}>ADD blog</button>}
+
+{ !isloading && <button  className="bg-red-500 mt-5  hover:bg-red-400"  onClick={handleSubmit}>ADD blog</button>}
 {isloading&&<button disabled>Adding blog...</button>}
 {/* <p>{title}</p>
 <p>{body}</p>
 <p>{author}</p> */}
 </form>
-    </div>
+    </div></div>
   )
 }
 export default blogDetails;

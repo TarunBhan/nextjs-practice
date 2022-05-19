@@ -1,4 +1,4 @@
-import Home from "./practice folder/home";
+import Home from "./practicefolder/home";
 const contact = () => {
   return (
     <>

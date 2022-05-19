@@ -15,13 +15,13 @@ const bg_data = () => {
   return (
     <div>
       <button onClick={fetchPost}> Click</button>
-      {console.log(data[0]?.title)}
+      {/* {console.log(data[0].title)} */}
       <h1>{data[0]?.title}</h1>
       {data &&
         data.map((user) => {
           return (
             <div id={user.id}>
-              <p>{user?.title}</p>
+              <p>{user.title}</p>
             </div>
           );
         })}

@@ -43,14 +43,11 @@ import { useState } from 'react'
 const blogDetails = () => {
   const [title,setTitle]= useState('');
   const [body,setBody]=useState('');
-
   const [isloading,setIsloading]=useState(false);
-
-
-  const [author,setAuthor]=useState('mario');
-const handleSubmit=(e)=>{
-e.preventDefault();
-const blog={title,body,author};
+  const [author,setAuthor]=useState('tarun');
+  const handleSubmit=(e)=>{
+  e.preventDefault();
+  const blog={title,body,author};
 
 setIsloading(true);
 fetch('http://localhost:8000/blogs',{
